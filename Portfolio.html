@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7a9341d73.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo 1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Digital Artist</p>
+            <h1>Hi, I'm <span>Shakila</span><br>Bhashitha From Sri Lanka</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/20230323_170038.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>Hi! I'm Shakila Bhashitha,an undergraduated sutdent at SLTC Rsearch University following a Bacherlor's Degree in Software Engineering. I have a great interst towards new generation video game industry so i have been working on that side for time.
+                    One of my hope is to ceate a High-quality video game universe that can revolutionize the video game industry.</p>
+                    I have been designing Digital Arts for two years. Also i'm aprogrammer,web developer,coder and a enthusiatic individual that can see the world deferently.
+                    You can download my portfolio and contact me for more information.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Digital Artist</span><br>Designing digital arts for social media <br>For online Art market <br>NFT creating</li>
+                        <li><span>Web Development</span><br>Front-End coding <br>Testing and Debugging <br>Back-End web programming languages</li>
+                        <li><span>Designer</span><br>Poster designer <br>Flyer designer <br>App designing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Concept Artist</span><br>2020-2022 worked as a online concept artist for BLIZARD Game Studio.</li>
+                        <li><span>Fiver</span><br>2020 worked as a web developer.</li>
+                        <li><span>App Development</span><br>Worked with a Indie game developing crew as a game programmer</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SLTC Research University</span><br>Currently following BSC(Hons)in IT(Software Engineering) Degree.</li>
+                        <li><span>GCE A/L & GCE O/L</span><br>In commerce stream at Mahinda Rajapaksha College.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------services--------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designing a website's overall aesthetic, including its structure, color scheme, and typography.
+                    Build a website that is responsive to different screen sizes, including those of computers, tablets, and smartphones and provide ongoing maintenance and support services to keep a website running smoothly and up-to-date</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Content creator</h2>
+                <p>The authoring of several kinds of content, including blog entries, articles, social media postings, website copy, product descriptions, and others, may be a creator's area of expertise. In addition to writing, some creators focus on producing visual content, such as images, graphics, or illustrations.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Designer</h2>
+                <p>Develop visual content for print or digital media, including websites, mobile apps, banner ads, posters, and brochures and develop or update a logo, color scheme, and typography for a brand..
+                    Generate graphic layouts, interactive components, and overall software, application, or website designs.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>NFT Arts</h3>
+                    <p>NFTs (non-fungible tokens) are unique cryptographic tokens that exist on a blockchain and cannot be replicated. NFTs can represent digital or real-world items like artwork and real estate.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Web Designing</h3>
+                    <p>The process of organizing, conceiving, and designing content for publication on the World Wide Web is known as web page design. A well-designed web page ought to be aesthetically pleasing, simple to use, and usable on a number of devices.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Concept Art</h3>
+                    <p>Art Department Trainee <br>
+                        Art Director <br>
+                        Assistant Art Director <br>
+                        Concept Artist <br>
+                        Draftsperson (or Set designer) <br>
+                        Graphic Designer <br>
+                        Production Buyer <br>
+                        Production Designer.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>shakilabhashitha@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0766402142</p>
+                <div class="social_icons">
+                    <a href="http://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Shakila <i class="fa-solid fa-heart"></i>.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwnuuXCLTAcvrx2_MJr1oMpHolYN7bbrLcNeNcS73CZTo65TZENTHcv_zFKZ0gQQKUMbA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
